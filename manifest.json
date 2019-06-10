@@ -1,0 +1,15 @@
+{
+  "name": "GitHub mention with icon",
+  "version": "1.0",
+  "description": "",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["background.js"]
+    }
+  ]
+}
