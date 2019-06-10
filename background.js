@@ -1,4 +1,7 @@
 document.getElementById('issue_body').addEventListener("keyup", function(event) {
+  if (!document.querySelector('ul[role="listbox"].suggester-container')) {
+    return;
+  }
   Object.entries(document.querySelector('ul[role="listbox"].suggester-container').getElementsByTagName('li')).forEach((li) => {
     if (li[1].getElementsByTagName('img').length < 1) {
       li[1].setAttribute("style", "display: flex; align-items: center;");
