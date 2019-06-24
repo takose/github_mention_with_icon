@@ -1,0 +1,7 @@
+ul[role="listbox"].suggester-container li {
+  position: relative;
+}
+
+ul[role="listbox"].suggester-container li span {
+  margin-left: 30px;
+}
