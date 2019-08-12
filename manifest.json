@@ -1,6 +1,6 @@
 {
   "name": "GitHub mention with icon",
-  "version": "1.4",
+  "version": "1.5",
   "description": "This makes GitHub mention more easy by showing user icon on dropdown menu of mention in GitHub.",
   "manifest_version": 2,
   "permissions": [
